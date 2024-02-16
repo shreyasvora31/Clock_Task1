@@ -65,7 +65,7 @@ public class scripts : MonoBehaviour
 
 
     public Transform secondHandInMotion;
-    float rotationSpeed = 600f;
+    float rotationSpeed = 6f;
 
     public void RotateHandsInMotion()
     {
