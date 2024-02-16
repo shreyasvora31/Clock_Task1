@@ -17,10 +17,13 @@ public class scripts : MonoBehaviour
 
     void Update()
     {
+        SystemTime();
+        RotateHands();
+
         if (motionInSecondHand == true)
-        { 
+        {
             SystemTime();
-            RotateHands();
+            RotateHandsInMotion();
         }
     }
 
